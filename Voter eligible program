@@ -1,0 +1,20 @@
+//In this program you can know if you are eligiblefor coading..
+
+import java.io.*;
+        class age 
+        {
+                  public static void main(String[]args)
+                  {
+                      int age=18;
+                      System.out.println("enter your age");
+                      if(age>=18)
+                           {
+                            System.out.println("you are eligible for voting,kindly use it wisely");
+                           }
+                            else
+                              {
+                                System.out.println("your are not eligible for voting so kindly wait till you turn to 18 ");
+                              }
+                   }
+          }
+    
