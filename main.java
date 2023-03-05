@@ -1,11 +1,12 @@
 public class main {
-static int myMethod(int x,int y)
+static void myMethod(int x,int y)
 {
-  return x+y;
+  int w=x+y;
+  System.out.println("the values are "+w);
 }
 public static void main(String args[])
 {
-System.out.println(myMethod(5,3));
+myMethod(5,3);
 }
 }    
     
